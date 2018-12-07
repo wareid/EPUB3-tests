@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+  <head>
+    <meta name="dtb:uid" content="0000000000000"/>
+    <meta name="dtb:depth" content="2"/>
+  </head>
+
+  <docTitle>
+    <text>AV Content Test - EPUB3FXL</text>
+  </docTitle>
+
+  <navMap>
+
+    <navPoint id="cover" playOrder="1">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml"/>
+    </navPoint>
+
+    <navPoint id="toc" playOrder="2">
+      <navLabel><text>Table of Contents</text></navLabel>
+      <content src="nav.xhtml"/>
+    </navPoint>
+
+    <navPoint id="intro" playOrder="3">
+      <navLabel><text>Page</text></navLabel>
+      <content src="intro.xhtml"/>
+    </navPoint>
+
+  </navMap>
+</ncx>

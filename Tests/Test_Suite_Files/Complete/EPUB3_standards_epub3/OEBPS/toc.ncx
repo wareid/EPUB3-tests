@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+  <head>
+    <meta name="dtb:uid" content="0000000000000"/>
+    <meta name="dtb:depth" content="2"/>
+  </head>
+
+  <docTitle>
+    <text>EPUB3 Standards - EPUB3</text>
+  </docTitle>
+
+  <navMap>
+
+    <navPoint id="cover_page" playOrder="1">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml"/>
+    </navPoint>
+
+    <navPoint id="toc" playOrder="2">
+      <navLabel><text>Table of Contents</text></navLabel>
+      <content src="nav.xhtml"/>
+    </navPoint>
+
+    <navPoint id="intro" playOrder="3">
+      <navLabel><text>Introduction</text></navLabel>
+      <content src="intro.xhtml"/>
+    </navPoint>
+
+    <navPoint id="frontmatter" playOrder="4">
+      <navLabel><text>Front Matter</text></navLabel>
+      <content src="frontmatter.xhtml"/>
+    </navPoint>
+
+    <navPoint id="bodymatter" playOrder="5">
+      <navLabel><text>Body Matter</text></navLabel>
+      <content src="bodymatter.xhtml"/>
+    </navPoint>
+
+    <navPoint id="endmatter" playOrder="6">
+      <navLabel><text>End Matter</text></navLabel>
+      <content src="endmatter.xhtml"/>
+    </navPoint>
+
+    <navPoint id="svg" playOrder="7">
+      <navLabel><text>SVG</text></navLabel>
+      <content src="svg.xhtml"/>
+    </navPoint>
+
+  </navMap>
+</ncx>

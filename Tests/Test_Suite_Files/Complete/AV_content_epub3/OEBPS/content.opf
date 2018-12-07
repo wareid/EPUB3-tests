@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
+  <metadata>
+    <dc:identifier id="bookid">0000000000000</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:creator>Wendy Reid</dc:creator>
+    <dc:title>AV Content Test</dc:title>
+    <meta property="dcterms:modified">2015-08-10T12:00:00Z</meta>
+  </metadata>
+  <manifest>
+    <item href="audio_test_autoplay.xhtml" id="audio_autoplay" media-type="application/xhtml+xml"/>
+    <item href="audio_test_controls.xhtml" id="audio_controls" media-type="application/xhtml+xml"/>
+    <item href="audio_test_loop.xhtml" id="audio_loop" media-type="application/xhtml+xml"/>
+    <item href="audio_test_muted.xhtml" id="audio_muted" media-type="application/xhtml+xml"/>
+    <item href="audio_test_preload.xhtml" id="audio_preload" media-type="application/xhtml+xml"/>
+    <item href="video_test_autoplay.xhtml" id="video_autoplay" media-type="application/xhtml+xml"/>
+    <item href="video_test_controls.xhtml" id="video_controls" media-type="application/xhtml+xml"/>
+    <item href="video_test_loop.xhtml" id="video_loop" media-type="application/xhtml+xml"/>
+    <item href="video_test_muted.xhtml" id="video_muted" media-type="application/xhtml+xml"/>
+    <item href="video_test_poster.xhtml" id="video_poster" media-type="application/xhtml+xml"/>
+    <item href="video_test_preload.xhtml" id="video_preload" media-type="application/xhtml+xml"/>
+    <item href="video_test_size.xhtml" id="video_size" media-type="application/xhtml+xml"/>
+
+    <item href="nav.xhtml" properties="nav" id="toc" media-type="application/xhtml+xml"/>
+    <item href="intro.xhtml" id="intro" media-type="application/xhtml+xml"/>
+    <item href="cover.xhtml" id="coverpage" media-type="application/xhtml+xml"/>
+    <item href="images/cover.jpg" properties="cover-image" id="cover" media-type="image/jpeg"/>
+    <item href="images/hello_kitty.png" id="hello_kitty" media-type="image/png"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="css/stylesheet.css" id="stylesheet" media-type="text/css"/>
+    <item href="audio/test_audio.m4a" id="test_audio" media-type="audio/mp4"/>
+    <item href="video/testcatvideo.mp4" id="test_video" media-type="video/mp4"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="coverpage"/>
+    <itemref idref="toc"/>
+    <itemref idref="intro"/>
+    <itemref idref="audio_autoplay"/>
+    <itemref idref="audio_controls"/>
+    <itemref idref="audio_loop"/>
+    <itemref idref="audio_muted"/>
+    <itemref idref="audio_preload"/>
+    <itemref idref="video_autoplay"/>
+    <itemref idref="video_controls"/>
+    <itemref idref="video_loop"/>
+    <itemref idref="video_muted"/>
+    <itemref idref="video_poster"/>
+    <itemref idref="video_preload"/>
+    <itemref idref="video_size"/>
+  </spine>
+</package>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>EPUB3 Standards - EPUB3</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+  </head>
+  <body epub:type="bodymatter">
+
+    <section epub:type="appendix">
+      <h2>Appendix</h2>
+      <p>This is to test the "appendix" property.</p>
+    </section>
+
+    <section epub:type="colophon">
+      <h2>Colophon</h2>
+      <p>This is to test the "colophon" property.</p>
+    </section>
+
+    <section epub:type="index">
+      <h2>Index</h2>
+      <p>This is to test the "index" property.</p>
+
+      <header epub:type="index-headnotes">
+        <p>This is to test the "index-headnotes" property. The following section will test the "index-legend" property.</p>
+
+        <dl epub:type="index-legend">
+          <dt>Test1</dt><dd>Test One</dd>
+          <dt>Test2</dt><dd>Test Two</dd>
+          <dt>Test3</dt><dd>Test Three</dd>
+        </dl>
+      </header>
+
+      <section epub:type="index-group">
+        <p>This is to test the "index-group" property.</p>
+      </section>
+
+      <section>
+        <p>This is to test the "index-entry-list" property.</p>
+          <ul epub:type="index-entry-list">
+            <li epub:type="index-entry">Test</li>
+            <li epub:type="index-entry">Test</li>
+            <li epub:type="index-entry">Test</li>
+          </ul>
+      </section>
+
+  </body>
+</html>

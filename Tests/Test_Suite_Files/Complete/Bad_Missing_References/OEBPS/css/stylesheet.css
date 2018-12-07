@@ -1,0 +1,29 @@
+html {
+  font-size: 10px;
+}
+
+div {
+  margin: 1em;
+  border: 1px solid blue;
+  width: 600px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 1em;
+  color: lightblue;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1em;
+  color: mediumblue;
+}
+
+p {
+  font-size: 1em;
+}
+
+ul {
+  list-style: circle;
+}

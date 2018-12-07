@@ -1,0 +1,44 @@
+html {
+  font-size: 10px;
+}
+
+p.control {
+  font-size: 1em;
+  margin: 0em;
+}
+
+p.xxsmall {
+  font-size: xx-small;
+}
+
+p.xsmall {
+  font-size: x-small;
+}
+
+p.small {
+  font-size: small;
+}
+
+p.medium {
+  font-size: medium;
+}
+
+p.large {
+  font-size: large;
+}
+
+p.xlarge {
+  font-size: x-large;
+}
+
+p.xxlarge {
+  font-size: xx-large;
+}
+
+p.smaller {
+  font-size: smaller;
+}
+
+p.larger {
+  font-size: larger;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>EPUB3 Standards Test - SVG</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+  </head>
+  <body>
+
+    <h1>SVG</h1>
+
+    <div class="testframe">
+      <p>This is to test SVG graphics. The following image is SVG, if it displays, the test passes.</p>
+      <object type="image/svg+xml" data="tiger.svg.png">This device does not support SVG.</object>
+    </div>
+
+    <div class="testframe">
+      <p>This is to test SVG graphics. The following image is rendered in SVG, if it displays, the test passes.</p>
+      <svg id="test1" version="1.1" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+        <g id="layerone">
+          <rect id="rect1" width="50" height="50" x="20" y="20"
+            style="fill:blue;opacity:1;fill-opacity:0.5;stroke:black;stroke-opacity:1;" />
+          <circle id="circle1" cx="75" cy="75" r="25"
+            style="fill:green;opacity:1;fill-opacity:0.5;stroke:black;stroke-opacity:1;" />
+          <path id="path1" d="M 238 49 L 350 145 L 327 172 L 215 76 Z"
+            style="fill:red;opacity:1;fill-opacity:0.5;stroke:black;stroke-opacity:1;" />
+        </g>
+      </svg>
+    </div>
+
+  </body>
+</html>

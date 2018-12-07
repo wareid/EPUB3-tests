@@ -1,0 +1,24 @@
+<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0" >
+<body>
+
+  <seq epub:textref="../smil_test2.xhtml#smil-goes-here" epub:type="chapter">
+    <par>
+      <text src="../smil_test2.xhtml#smil1"/>
+      <audio src="../Audio/testaudio.m4a" clipBegin="0" clipEnd="2.00"/>
+    </par>
+    <par>
+      <text src="../smil_test2.xhtml#smil2"/>
+      <audio src="../Audio/testaudio.m4a" clipBegin="2.10" clipEnd="4.00"/>
+    </par>
+    <par>
+      <text src="../smil_test2.xhtml#smil3"/>
+      <audio src="../Audio/testaudio.m4a" clipBegin="4.10" clipEnd="6.00"/>
+    </par>
+    <par>
+      <text src="../smil_test2.xhtml#smil4"/>
+      <audio src="../Audio/testaudio.m4a" clipBegin="6.10" clipEnd="8.00"/>
+    </par>
+  </seq>
+
+</body>
+</smil>

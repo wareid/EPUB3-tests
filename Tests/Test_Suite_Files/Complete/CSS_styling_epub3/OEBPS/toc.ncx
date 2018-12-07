@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:05c84755-1694-4fbc-a86f-b3d6131fdc2b"/>
+    <meta name="dtb:depth" content="2"/>
+  </head>
+
+  <docTitle>
+    <text>CSS Styling Test - EPUB3</text>
+  </docTitle>
+
+  <navMap>
+
+    <navPoint id="cover" playOrder="1">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml"/>
+    </navPoint>
+
+    <navPoint id="nav" playOrder="2">
+      <navLabel><text>TOC</text></navLabel>
+      <content src="nav.xhtml"/>
+    </navPoint>
+
+    <navPoint id="intro" playOrder="3">
+      <navLabel><text>Intro</text></navLabel>
+      <content src="intro.xhtml"/>
+    </navPoint>
+
+  </navMap>
+</ncx>

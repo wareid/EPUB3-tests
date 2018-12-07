@@ -1,0 +1,788 @@
+/* This is the beginning of the CSS styling test for EPUB 2.0 content.
+The following is the basic formatting for the text in the file/test cases. */
+
+html {
+  font-size: 12px;
+}
+
+p {
+  font-size: 1em;
+  margin: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #0079a3;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #3ca4d6;
+}
+
+div.testframe {
+  font-size: 1em;
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 600px;
+}
+
+div.testframe-alt {
+  font-size: 1em;
+  margin: 1em;
+  width: 600px;
+}
+
+/* Background properties test */
+
+div.background-test-1 {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+div.background-test-2 {
+  background-image: url("images/background_img.jpg");
+  background-attachment: fixed;
+}
+
+div.background-test-3 {
+  background-color: #8d8d8d;
+}
+
+div.background-test-4 {
+  background-image: url("images/background_img.jpg");
+  background-position: right top;
+}
+
+div.background-test-5 {
+  background-image: url("images/background_img.jpg");
+  background-repeat: repeat;
+}
+
+/* Border tests */
+
+div.border-test-1 {
+  border: 1px solid black;
+}
+
+div.border-test-2 {
+  border-top: 2px;
+  border-right: 3px;
+  border-bottom: 4px;
+  border-left: 5px;
+  border-style: dashed;
+}
+
+div.border-test-3 {
+  border: 3px solid;
+  border-color: red;
+}
+
+div.border-test-4 {
+  border-top-color: blue;
+  border-top-style: dashed;
+  border-right-color: green;
+  border-right-style: dotted;
+  border-bottom-color: red;
+  border-bottom-style: double;
+  border-left-color: yellow;
+  border-left-style: groove;
+}
+
+div.border-test-5 {
+  border-style: hidden;
+}
+
+div.border-test-6 {
+  border-top-style: inset;
+  border-right-style: none;
+  border-bottom-style: outset;
+  border-left-style: ridge;
+}
+
+div.border-test-7 {
+  border-style: solid;
+  border-width: medium;
+}
+
+div.border-test-8 {
+  border-style: solid;
+  border-top-width: thin;
+  border-right-width: medium;
+  border-bottom-width: thick;
+  border-left-width: medium;
+}
+
+/*Section to test positioning with bottom/top/left/right and clip */
+
+img.image-test-1 {
+  bottom: 20px;
+  position: relative;
+}
+
+img.image-test-2 {
+  top: 20px;
+  position: relative;
+}
+
+img.image-test-3 {
+  left: 50px;
+  position: relative;
+}
+
+img.image-test-4 {
+  right: 50px;
+  position: relative;
+}
+
+img.image-test-5 {
+  position: absolute;
+  clip: rect(0px, 20px, 20px, 0px)
+}
+
+/* Section to test colour */
+
+p.color-test {
+  color: green;
+}
+
+/* Section to test counter-increment/counter-reset and content */
+
+div.counter-test {
+  counter-reset: section;
+  margin: 1em;
+}
+
+h3.counter-test-p1 {
+  counter-reset: subsection;
+}
+
+h3.counter-test-p1:before {
+  counter-increment: section;
+  content: "Section " counter(section) ". ";
+}
+
+h4.counter-test-p2:before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
+
+/* display Tests */
+
+p.display-test-1 {
+  display: inline;
+}
+
+p.display-test-2 {
+  display: block;
+}
+
+p.display-test-3 {
+  display: inline-block;
+}
+
+p.display-test-4 {
+  display: inline-table;
+}
+
+p.display-test-5 {
+  display: none;
+}
+
+p.display-test-6 {
+  display: list-item;
+}
+
+p.display-test-7 {
+  display: run-in;
+}
+
+/* display Tests - table elements */
+
+div.table-block {
+  display: block;
+}
+
+div.display-test-8 {
+  display: table;
+}
+
+div.display-test-9 {
+  display: table-cell;
+}
+
+p.display-test-10 {
+  display: table-caption;
+}
+
+div.display-test-11 {
+  display: table-column;
+}
+
+div.display-test-12 {
+  display: table-row;
+}
+
+/* float and clear Test */
+
+p.float-test-1 {
+  float: left;
+}
+
+p.float-test-2 {
+  float: right;
+}
+
+p.float-test-3 {
+  float: none;
+}
+
+img.clear-test {
+  float: right;
+}
+
+p.clear-test-1 {
+  clear: both;
+}
+
+p.clear-test-2 {
+  clear: left;
+}
+
+p.clear-test-3 {
+  clear: right;
+}
+
+/* font faces Test */
+
+p.font-test-1 {
+  font: 2em arial, sans-serif;
+}
+
+p.font-test-2 {
+  font-family: sans-serif;
+}
+
+p.font-test-3 {
+  font-size: 5em;
+}
+
+p.font-test-4 {
+  font-variant: small-caps;
+}
+
+p.font-test-5 {
+  font-weight: bold;
+}
+
+p.font-test-6 {
+  font-weight: bolder;
+}
+
+p.font-test-7 {
+  font-weight: lighter;
+}
+
+p.font-test-8 {
+  font-weight: 600;
+}
+
+/* height and width test */
+
+p.height-and-width {
+  height: 100px;
+  width: 100px;
+}
+
+/* text formatting tests */
+
+p.text-formatting-1 {
+  letter-spacing: 1em;
+  margin: 2em;
+  orphans: 1;
+  widows: 1;
+}
+
+p.text-formatting-2 {
+  letter-spacing: -0.5em;
+  margin: -1em;
+  orphans: 5;
+  widows: 5;
+}
+
+ul.list-style-1 {
+  list-style: armenian;
+}
+
+ul.list-style-2 {
+  list-style: circle;
+}
+
+ul.list-style-3 {
+  list-style:decimal;
+}
+
+ul.list-style-4 {
+  list-style: decimal-leading-zero;
+}
+
+ul.list-style-5 {
+  list-style: disc;
+}
+
+ul.list-style-6 {
+  list-style: georgian;
+}
+
+ul.list-style-7 {
+  list-style: inside;
+}
+
+ul.list-style-8 {
+  list-style: lower-alpha;
+}
+
+ul.list-style-9 {
+  list-style: lower-greek;
+}
+
+ul.list-style-10 {
+  list-style: lower-latin;
+}
+
+ul.list-style-11 {
+  list-style: lower-roman;
+}
+
+ul.list-style-12 {
+  list-style: none;
+}
+
+ul.list-style-13 {
+  list-style: outside;
+}
+
+ul.list-style-14 {
+  list-style: square;
+}
+
+ul.list-style-15 {
+  list-style: upper-alpha;
+}
+
+ul.list-style-16 {
+  list-style: upper-latin;
+}
+
+ul.list-style-17 {
+  list-style: upper-roman;
+}
+
+ul.list-style-image-1 {
+  list-style-image: url("tinyarrow.png");
+}
+
+ul.list-style-position-1 {
+  list-style: disc;
+  list-style-position: outside;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: disc;
+}
+
+ul.c {
+  list-style-type: square;
+}
+
+ol.d {
+  list-style-type: armenian;
+}
+
+ol.e {
+  list-style-type: cjk-ideographic;
+}
+
+ol.f {
+  list-style-type: decimal;
+}
+
+ol.g {
+  list-style-type: decimal-leading-zero;
+}
+
+ol.h {
+  list-style-type: georgian;
+}
+
+ol.i {
+  list-style-type: hebrew;
+}
+
+ol.j {
+  list-style-type: hiragana;
+}
+
+ol.k {
+  list-style-type: hiragana-iroha;
+}
+
+ol.l {
+  list-style-type: katakana;
+}
+
+ol.m {
+  list-style-type: katakana-iroha;
+}
+
+ol.n {
+  list-style-type: lower-alpha;
+}
+
+ol.o {
+  list-style-type: lower-greek;
+}
+
+ol.p {
+  list-style-type: lower-latin;
+}
+
+ol.q {
+  list-style-type: lower-roman;
+}
+
+ol.r {
+  list-style-type: upper-alpha;
+}
+
+ol.s {
+  list-style-type: upper-latin;
+}
+
+ol.t {
+  list-style-type: upper-roman;
+}
+
+ol.u {
+  list-style-type: none;
+}
+
+/* margin Test */
+
+p.margin-test-1 {
+  margin: 3em;
+}
+
+p.margin-test-2 {
+  margin-top: 3em;
+}
+
+p.margin-test-3 {
+  margin-right: 5em;
+}
+
+p.margin-test-4 {
+  margin-bottom: 5em;
+}
+
+p.margin-test-5 {
+  margin-left: 2em;
+}
+
+/* max/min-height and overflow Test */
+
+p.max-height-test-1 {
+  max-height: 25px;
+  overflow: auto;
+}
+
+p.max-width-test-1 {
+  max-width: 50px;
+  overflow: hidden;
+}
+
+p.min-height-1 {
+  min-height: 100px;
+  overflow: scroll;
+}
+
+p.min-width-1 {
+  min-width: 45px;
+  overflow: visible;
+  background-color: grey;
+}
+
+/* outline Test */
+
+p.outline-test-1 {
+  outline: grey solid thin;
+}
+
+p.outline-test-2 {
+  outline-color: red;
+}
+
+p.outline-test-3 {
+  outline-style: dashed;
+  outline-color: black;
+}
+
+p.outline-test-4 {
+  outline-style: dotted;
+  outline-color: black;
+}
+
+p.outline-test-5 {
+  outline-style: double;
+  outline-color: black;
+}
+
+p.outline-test-6 {
+  outline-style: groove;
+  outline-width: thin;
+}
+
+p.outline-test-7 {
+  outline-style: hidden;
+  outline-width: medium;
+}
+
+p.outline-test-8 {
+  outline-style: inset;
+  outline-width: thick;
+}
+
+p.outline-test-9 {
+  outline-style: none;
+  outline-color: black;
+}
+
+p.outline-test-10 {
+  outline-style: outset;
+  outline-color: black;
+}
+
+p.outline-test-11 {
+  outline-style: ridge;
+  outline-color: black;
+}
+
+p.outline-test-12 {
+  outline-width: medium;
+  outline-color: black;
+  outline-style: solid;
+}
+
+p.outline-test-13 {
+  outline-width: thin;
+  outline-color: black;
+  outline-style: solid;
+}
+
+p.outline-test-14 {
+  outline-width: thick;
+  outline-color: black;
+  outline-style: solid;
+}
+
+p.outline-test-15 {
+  outline-width: 10px;
+  outline-color: black;
+  outline-style: solid;
+}
+
+/* padding Tests */
+
+p.padding-test-1 {
+  padding: 10px 10px 20px 50px;
+}
+
+p.padding-test-2 {
+  padding-top: 20px;
+}
+
+p.padding-test-3 {
+  padding-right: 20px;
+}
+
+p.padding-test-4 {
+  padding-bottom: 20px;
+}
+
+p.padding-test-5 {
+  padding-left: 20px;
+}
+
+/* page-break Tests */
+
+.pagebreak-test-1 {
+  page-break-after: always;
+}
+
+.pagebreak-test-2 {
+  page-break-after: avoid;
+}
+
+.pagebreak-test-3 {
+  page-break-inside: avoid;
+}
+
+.pagebreak-test-4 {
+  page-break-before: always;
+}
+
+.pagebreak-test-5 {
+  page-break-before: avoid;
+}
+
+/* position Tests */
+
+div.position-test-1 {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  border: 1px solid;
+}
+
+div.position-test-3 {
+  position: relative;
+  left: 40px;
+  border: 1px solid;
+}
+
+div.position-test-4 {
+  position: static;
+  border: 1px solid;
+}
+
+/* text- Tests */
+
+p.text-test-1 {
+  text-align: center;
+  text-decoration: line-through;
+  text-indent: 2em;
+  text-transform: lowercase;
+}
+
+q.q1 {
+  quotes: "<" ">";
+}
+
+p.text-test-2 {
+  text-align: left;
+  text-decoration: overline;
+  text-indent: 2em;
+  text-transform: capitalize;
+}
+
+q.q2 {
+  quotes: """ """;
+}
+
+p.text-test-3 {
+  text-align: justify;
+  text-decoration: underline;
+  text-indent: 2em;
+  text-transform: full-width;
+}
+
+q.q3 {
+  quotes: "'" "'";
+}
+
+p.text-test-4 {
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-indent: 2em;
+}
+
+q.q4 {
+  quotes: "&#8220;" "&#8221;";
+}
+
+/* vertical-align Tests */
+
+p.vertical-test-1 {
+  vertical-align: baseline;
+}
+
+p.vertical-test-2 {
+  vertical-align: bottom;
+}
+
+p.vertical-test-3 {
+  vertical-align: middle;
+}
+
+span.vertical-test-4 {
+  vertical-align: sub;
+}
+
+span.vertical-test-5 {
+  vertical-align: super;
+}
+
+p.vertical-test-6 {
+  vertical-align: text-bottom;
+}
+
+p.vertical-test-7 {
+  vertical-align: text-top;
+}
+
+p.vertical-test-8 {
+  vertical-align: top;
+}
+
+span.vertical-test-9 {
+  vertical-align: 25px;
+}
+
+span.vertical-test-10 {
+  vertical-align: -25px;
+}
+
+/* visibility Test */
+
+p.visibility-test-1 {
+  visibility: hidden;
+}
+
+tr.visibility-test-2 {
+  visibility: collapse;
+}
+
+/* whitespace Test */
+
+p.whitespace-test-1 {
+  white-space: nowrap;
+}
+
+p.whitespace-test-2 {
+  white-space: pre;
+}
+
+p.whitespace-test-3 {
+  white-space: pre-line;
+}
+
+p.whitespace-test-4 {
+  white-space: pre-wrap;
+}
+
+/* word-spacing */
+
+p.wordspacing-test-1 {
+  word-spacing: 1em;
+}
+
+p.wordspacing-test-2 {
+  word-spacing: -0.5em;
+}

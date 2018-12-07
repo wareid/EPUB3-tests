@@ -1,0 +1,57 @@
+html {
+  font-size: 10px;
+}
+
+p {
+  font-size: 1em;
+  margin: 0em;
+  text-indent: 1em;
+}
+
+.pbaalways {
+  page-break-after: always;
+}
+
+.pbaauto {
+  page-break-after: auto;
+}
+
+.pbaavoid {
+  page-break-after: avoid;
+}
+
+.pbaleft {
+  page-break-after: left;
+}
+
+.pbaright {
+  page-break-after: right;
+}
+
+.pbbauto {
+  page-break-before: auto;
+}
+
+.pbbalways {
+  page-break-before: always;
+}
+
+.pbbavoid {
+  page-break-before: avoid;
+}
+
+.pbbleft {
+  page-break-before: left;
+}
+
+.pbbright {
+  page-break-before: right;
+}
+
+.pbiauto {
+  page-break-inside: auto;
+}
+
+.pbiavoid {
+  page-break-inside: avoid;
+}

@@ -1,0 +1,207 @@
+html {
+  font-size: 10px;
+}
+
+p {
+  font-size: 1em;
+  margin: 0em;
+}
+
+h1 {
+  font-size: 2em;
+  color: #0079a3;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #3ca4d6;
+}
+
+div.testframe {
+  font-size: 1em;
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 600px;
+  padding: 10px;
+}
+
+@namespace epub 'http://www.idpf.org/2007/ops'
+section[epub|type~='titlepage'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='halftitlepage'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='copyrightpage'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='seriespage'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='acknowledgements'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='imprint'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='imprimatur'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='contributors'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='other-credits'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+aside[epub|type~='errata'] {
+   padding: 0.5em;
+   margin-left: 2em;
+   width: 25%;
+   max-width: 15em;
+   background-color: lightgrey;
+   border: solid 1px #0079a3;
+   float: right;
+}
+
+section[epub|type~='dedication'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='revision-history'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='chapter'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='foreword'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='preface'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='prologue'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='introduction'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='preamble'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='conclusion'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='epilogue'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='afterword'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}
+
+section[epub|type~='epigraph'] {
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 100%;
+}

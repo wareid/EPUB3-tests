@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <title>CSS Styling Test - EPUB3: Visibility</title>
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <h1>Visibility Tests</h1>
+
+    <div class="testframe">
+      <p>This is to test the visibility property. If the following text is hidden but the spacing appears, the test passes.</p>
+      <p class="visibility-test-1">This is a test.</p>
+    </div>
+
+    <div class="testframe">
+      <p>This is to test the visibility property. If the middle table row is hidden and spacing appears, the test passes.</p>
+      <table>
+        <tr>
+          <td>This is a row.</td>
+        </tr>
+        <tr class="visibility-test-2">
+          <td>This is a test.</td>
+        </tr>
+        <tr>
+          <td>This is a row.</td>
+        </tr>
+      </table>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+html {
+  font-size: 12px;
+}
+
+p {
+  font-size: 1em;
+  margin: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #0079a3;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #3ca4d6;
+}
+
+div.testframe {
+  font-size: 1em;
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 500px;
+}

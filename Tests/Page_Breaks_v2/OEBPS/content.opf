@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
+  <metadata>
+    <dc:title>Page Breaks Test</dc:title>
+    <dc:identifier id="bookid">0000000000000</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:creator>Wendy Reid</dc:creator>
+    <meta property="dcterms:modified">2015-04-23T12:00:00Z</meta>
+  </metadata>
+  <manifest>
+    <item href="cover.xhtml" id="coverpage" media-type="application/xhtml+xml"/>
+    <item href="pba_always.xhtml" id="pbaalways" media-type="application/xhtml+xml"/>
+    <item href="pba_auto.xhtml" id="pbaauto" media-type="application/xhtml+xml"/>
+    <item href="pba_avoid.xhtml" id="pbaavoid" media-type="application/xhtml+xml"/>
+    <item href="pba_left.xhtml" id="pbaleft" media-type="application/xhtml+xml"/>
+    <item href="pba_right.xhtml" id="pbaright" media-type="application/xhtml+xml"/>
+    <item href="pbb_auto.xhtml" id="pbbauto" media-type="application/xhtml+xml"/>
+    <item href="pbb_always.xhtml" id="pbbalways" media-type="application/xhtml+xml"/>
+    <item href="pbb_avoid.xhtml" id="pbbavoid" media-type="application/xhtml+xml"/>
+    <item href="pbb_left.xhtml" id="pbbleft" media-type="application/xhtml+xml"/>
+    <item href="pbb_right.xhtml" id="pbbright" media-type="application/xhtml+xml"/>
+    <item href="pbi_auto.xhtml" id="pbiauto" media-type="application/xhtml+xml"/>
+    <item href="pbi_avoid.xhtml" id="pbiavoid" media-type="application/xhtml+xml"/>
+    <item href="nav.xhtml" properties="nav" id="toc" media-type="application/xhtml+xml"/>
+    <item href="images/cover.jpg" properties="cover-image" id="cover" media-type="image/jpeg"/>
+    <item href="images/cutedog.jpg" id="cutedog" media-type="image/jpeg"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="css/stylesheet.css" id="stylesheet" media-type="text/css"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="coverpage"/>
+    <itemref idref="pbaalways"/>
+    <itemref idref="pbaauto"/>
+    <itemref idref="pbaavoid"/>
+    <itemref idref="pbaleft"/>
+    <itemref idref="pbaright"/>
+    <itemref idref="pbbauto"/>
+    <itemref idref="pbbalways"/>
+    <itemref idref="pbbavoid"/>
+    <itemref idref="pbbleft"/>
+    <itemref idref="pbbright"/>
+    <itemref idref="pbiauto"/>
+    <itemref idref="pbiavoid"/>
+  </spine>
+</package>

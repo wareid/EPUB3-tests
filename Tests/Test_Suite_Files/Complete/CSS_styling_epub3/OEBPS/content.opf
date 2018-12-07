@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>CSS Styling Test - EPUB3</dc:title>
+    <dc:identifier id="bookid">urn:uuid:05c84755-1694-4fbc-a86f-b3d6131fdc2b</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:creator>Wendy Reid</dc:creator>
+    <meta property="dcterms:modified">2015-07-16T12:00:00Z</meta>
+  </metadata>
+  <manifest>
+    <item href="nav.xhtml" properties="nav" id="toc" media-type="application/xhtml+xml"/>
+    <item href="cover.xhtml" id="cover_page" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="css/stylesheet.css" id="stylesheet" media-type="text/css"/>
+
+    <item href="intro.xhtml" id="intro" media-type="application/xhtml+xml"/>
+    <item href="background_properties.xhtml" id="bg_properties" media-type="application/xhtml+xml"/>
+    <item href="border.xhtml" id="border" media-type="application/xhtml+xml"/>
+    <item href="positioning.xhtml" id="positioning" media-type="application/xhtml+xml"/>
+    <item href="colour.xhtml" id="colour" media-type="application/xhtml+xml"/>
+    <item href="counter.xhtml" id="counter" media-type="application/xhtml+xml"/>
+    <item href="display.xhtml" id="display" media-type="application/xhtml+xml"/>
+    <item href="float.xhtml" id="float" media-type="application/xhtml+xml"/>
+    <item href="font_face.xhtml" id="font_face" media-type="application/xhtml+xml"/>
+    <item href="height_width.xhtml" id="height_width" media-type="application/xhtml+xml"/>
+    <item href="text_formatting.xhtml" id="text_formatting" media-type="application/xhtml+xml"/>
+    <item href="margin.xhtml" id="margin" media-type="application/xhtml+xml"/>
+    <item href="maxmin_height.xhtml" id="maxmin_height" media-type="application/xhtml+xml"/>
+    <item href="outline.xhtml" id="outline" media-type="application/xhtml+xml"/>
+    <item href="padding.xhtml" id="padding" media-type="application/xhtml+xml"/>
+    <item href="page_break.xhtml" id="page_break" media-type="application/xhtml+xml"/>
+    <item href="position.xhtml" id="position" media-type="application/xhtml+xml"/>
+    <item href="text.xhtml" id="text" media-type="application/xhtml+xml"/>
+    <item href="vertical_align.xhtml" id="vertical_align" media-type="application/xhtml+xml"/>
+    <item href="visibility.xhtml" id="visibility" media-type="application/xhtml+xml"/>
+    <item href="whitespace.xhtml" id="whitespace" media-type="application/xhtml+xml"/>
+    <item href="word_spacing.xhtml" id="word_spacing" media-type="application/xhtml+xml"/>
+    <item href="align.xhtml" id="align" media-type="application/xhtml+xml"/>
+    <item href="animation.xhtml" id="animation" media-type="application/xhtml+xml"/>
+    <item href="background_prop_CSS3.xhtml" id="background_prop_CSS3" media-type="application/xhtml+xml"/>
+    <item href="border_image.xhtml" id="border_image" media-type="application/xhtml+xml"/>
+    <item href="border_radius.xhtml" id="border_radius" media-type="application/xhtml+xml"/>
+    <item href="break.xhtml" id="break" media-type="application/xhtml+xml"/>
+    <item href="transform.xhtml" id="transform" media-type="application/xhtml+xml"/>
+    <item href="transitions.xhtml" id="transitions" media-type="application/xhtml+xml"/>
+
+    <item href="css/images/cover.jpg" properties="cover-image" id="cover" media-type="image/jpeg"/>
+    <item href="css/tinyarrow.png" id="tiny_arrow" media-type="image/png"/>
+    <item href="css/images/background_img.jpg" id="background_img" media-type="image/jpeg"/>
+    <item href="css/smile-obfuscated.png" id="smile-obfuscated.png" media-type="image/png"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover_page"/>
+    <itemref idref="intro"/>
+    <itemref idref="toc"/>
+    <itemref idref="bg_properties"/>
+    <itemref idref="border"/>
+    <itemref idref="positioning"/>
+    <itemref idref="colour"/>
+    <itemref idref="counter"/>
+    <itemref idref="display"/>
+    <itemref idref="float"/>
+    <itemref idref="font_face"/>
+    <itemref idref="height_width"/>
+    <itemref idref="text_formatting"/>
+    <itemref idref="margin"/>
+    <itemref idref="maxmin_height"/>
+    <itemref idref="outline"/>
+    <itemref idref="padding"/>
+    <itemref idref="page_break"/>
+    <itemref idref="position"/>
+    <itemref idref="text"/>
+    <itemref idref="vertical_align"/>
+    <itemref idref="visibility"/>
+    <itemref idref="whitespace"/>
+    <itemref idref="word_spacing"/>
+    <itemref idref="align"/>
+    <itemref idref="animation"/>
+    <itemref idref="background_prop_CSS3"/>
+    <itemref idref="border_image"/>
+    <itemref idref="border_radius"/>
+    <itemref idref="break"/>
+    <itemref idref="transform"/>
+    <itemref idref="transitions"/>
+  </spine>
+
+  <guide>
+    <reference type="cover" href="cover.xhtml"/>
+    <reference type="text" href="intro.xhtml"/>
+  </guide>
+</package>

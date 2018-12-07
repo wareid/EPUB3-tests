@@ -1,0 +1,362 @@
+/* CSS3 Stylesheet */
+
+html {
+  font-size: 12px;
+}
+
+p {
+  font-size: 1em;
+  margin: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #0079a3;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #3ca4d6;
+}
+
+div.testframe {
+  font-size: 1em;
+  margin: 1em;
+  border: 2px;
+  border-style: solid;
+  border-color: #0079a3;
+  width: 600px;
+  padding: 10px;
+}
+
+/* Border Radius Test */
+
+div.border-radius-1 {
+  width: 300px;
+  border-radius: 5px;
+  border: 2px black;
+  border-style: solid;
+}
+
+div.border-radius-2 {
+  width: 300px;
+  border-top-left-radius: 5px;
+  border: 2px black;
+  border-style: solid;
+}
+
+div.border-radius-3 {
+  width: 300px;
+  border-top-right-radius: 5px;
+  border: 2px black;
+  border-style: solid;
+}
+
+div.border-radius-4 {
+  width: 300px;
+  border-bottom-right-radius: 5px;
+  border: 2px black;
+  border-style: solid;
+}
+
+div.border-radius-5 {
+  width: 300px;
+  border-bottom-left-radius: 5px;
+  border: 2px black;
+  border-style: solid;
+}
+
+/* Border Images */
+
+div.border-image-1 {
+  width: 300px;
+  border-style: solid;
+  border-width: 14px;
+  border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 fill round;
+}
+
+div.border-image-2 {
+  width: 200px;
+  border-image: url(http://www.w3.org/TR/css3-background/border.png) 15 stretch;
+  border-width: 10px;
+  border-style: solid;
+}
+
+div.border-image-3 {
+  width: 200px;
+  border-width: 10px;
+  border-style: solid;
+  border-image: url(http://www.w3.org/TR/css3-background/border.png) 15 repeat;
+}
+
+div.border-image-4 {
+  width: 200px;
+  border-image: url(http://www.w3.org/TR/css3-background/border.png) 15 space;
+  border-width: 10px;
+  border-style: solid;
+}
+
+/* Break- Properties Test */
+
+div.col {
+  width: 500px;
+  height: 200px;
+  background-color: lightgrey;
+  padding: 10px;
+  column-count: 3;
+  -webkit-column-count: 3;
+  column-rule: 2px dotted black;
+  -webkit-column-rule: 2px dotted black;
+}
+
+p.col-break-1 {
+  break-before: always;
+  -webkit-break-before: always;
+}
+
+p.col-break-2 {
+  break-before: auto;
+  -webkit-break-before: auto;
+}
+
+p.col-break-3 {
+  break-before: avoid;
+  -webkit-break-before: avoid;
+}
+
+p.col-break-4 {
+  break-before: avoid-column;
+  -webkit-break-before: avoid-column;
+}
+
+p.col-break-5 {
+  break-before: avoid-page;
+  -webkit-break-before: avoid-page;
+}
+
+p.col-break-6 {
+  break-before: column;
+  -webkit-break-before: column;
+}
+
+p.col-break-7 {
+  break-before: left;
+  -webkit-break-before: left;
+}
+
+p.col-break-8 {
+  break-before: right;
+  -webkit-break-before: right;
+}
+
+p.col-break-9 {
+  break-after: always;
+  -webkit-break-after: always;
+}
+
+p.col-break-10 {
+  break-after: auto;
+  -webkit-break-after: auto;
+}
+
+p.col-break-11 {
+  break-after: column;
+  -webkit-break-after: column;
+}
+
+p.col-break-12 {
+  break-after: avoid;
+  -webkit-break-after: avoid;
+}
+
+p.col-break-13 {
+  break-after: avoid-column;
+  -webkit-break-after: avoid-column;
+}
+
+p.col-break-14 {
+  break-after: avoid-page;
+  -webkit-break-after: avoid-page;
+}
+
+p.col-break-15 {
+  break-after: left;
+  -webkit-break-after: left;
+}
+
+p.col-break-16 {
+  break-after: right;
+  -webkit-break-after: right;
+}
+
+/* Animation Tests */
+
+div.animation-test {
+  width:50px;
+  height:50px;
+  padding:20px;
+  text-align:center;
+  background:#fc0;
+  position:relative;
+  animation:animation-test 1s ease-in 0s 6 alternate;
+}
+
+@-webkit-keyframes animation-test {
+	from {
+	  top: 25px;
+	  left:25px;
+	  }
+	33% {
+	  top: 25px;
+	  left:175px;
+	  }
+	66% {
+	  top: 175px;
+	  left:25px;
+	  }
+	to {
+	  top: 175px;
+	  left:175px;
+	}
+}
+
+@keyframes animation-test {
+	from {
+	  top: 25px;
+	  left:25px;
+	  }
+	33% {
+	  top: 25px;
+	  left:175px;
+	  }
+	66% {
+	  top: 175px;
+	  left:25px;
+	  }
+	to {
+	  top: 175px;
+	  left:175px;
+	}
+}
+
+/* Transition Test */
+
+.resize {
+background-color: yellow;
+color: black;
+width: 20%;
+height: 20px;
+padding: 10px;
+font-size: 1em;
+font-family:sans-serif;
+transition: width 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.4) 0s, height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.4) 0s;
+}
+
+.resize:hover {
+width: 70%;
+height: 150px;
+font-size: 2em;
+font-weight: bold;
+background-color: grey;
+}
+
+/* Transform Properties */
+
+div.rotate {
+  width:50px;
+  height:30px;
+  padding:20px;
+  text-align:center;
+  background: grey;
+
+  animation:rotate 5s linear 0s infinite normal none;
+  backface-visibility: hidden;
+}
+
+@keyframes rotate {
+	from {
+	  transform: rotateY(0deg);
+	  }
+	to {
+	  transform: rotateY(360deg);
+	}
+}
+
+/* Background Properties */
+
+div.background-prop-test1 {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  background-color: yellowgreen;
+  background-image: url("images/background_img.jpg");
+
+  border: 20px solid rgba(0,0,0,0.3);
+
+  background-clip: border-box;
+  background-origin: border-box;
+}
+
+/* Align- properties */
+
+div.align-test-1 {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+}
+
+.align-test-1 div {
+    width: 70px;
+    height: 70px;
+}
+
+div.align-test-2 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.align-test-2 div {
+  flex: 1;
+  width: 70px;
+  height: 70px;
+}
+
+div.align-test-3 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+}
+
+.align-test-3 div {
+  flex: 1;
+  height: 70px;
+}
+
+div.align-test-4 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+}
+
+.align-test-4 div {
+  width: 100px;
+  height: 100px;
+  flex: 1;
+}
+
+div.blue {
+  align-self: center;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}

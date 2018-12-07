@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+  <head>
+    <meta name="dtb:uid" content="0000000000000"/>
+    <meta name="dtb:depth" content="2"/>
+  </head>
+
+  <docTitle>
+    <text>Missing/Bad References</text>
+  </docTitle>
+
+  <navMap>
+
+    <navPoint id="cover_page" playOrder="1">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml"/>
+    </navPoint>
+
+    <navPoint id="toc" playOrder="2">
+      <navLabel><text>Table of Contents</text></navLabel>
+      <content src="nav.xhtml"/>
+    </navPoint>
+
+    <navPoint id="intro" playOrder="3">
+      <navLabel><text>Introduction</text></navLabel>
+      <content src="intro.xhtml"/>
+    </navPoint>
+
+    <navPoint id="chap01" playOrder="4">
+      <navLabel><text>Chapter 1</text></navLabel>
+      <content src="chap01.xhtml"/>
+    </navPoint>
+
+    <navPoint id="chap02" playOrder="5">
+      <navLabel><text>Chapter 2</text></navLabel>
+      <content src="chap02.xhtml"/>
+    </navPoint>
+
+    <navPoint id="chap03" playOrder="6">
+      <navLabel><text>Chapter 3</text></navLabel>
+      <content src="chap03.xhtml"/>
+    </navPoint>
+
+    <navPoint id="chap04" playOrder="7">
+      <navLabel><text>Chapter 4</text></navLabel>
+      <content src="chap04.xhtml"/>
+    </navPoint>
+
+    <navPoint id="chap05" playOrder="8">
+      <navLabel><text>Chapter 5</text></navLabel>
+      <content src="chap05.xhtml"/>
+    </navPoint>
+
+    <navPoint id="chap06" playOrder="9">
+      <navLabel><text>Chapter 6</text></navLabel>
+      <content src="chap06.xhtml"/>
+    </navPoint>
+
+    <navPoint id="chap08" playOrder="10">
+      <navLabel><text>Chapter 8</text></navLabel>
+      <content src="chap08.xhtml"/>
+    </navPoint>
+
+  </navMap>
+</ncx>
