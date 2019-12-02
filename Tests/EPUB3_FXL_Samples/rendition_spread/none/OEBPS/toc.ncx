@@ -6,53 +6,53 @@
     <meta name="dtb:depth" content="2"/>
   </head>
 
-  <doctitle>
+  <docTitle>
     <text>EPUB Test Template</text>
-  </doctitle>
+  </docTitle>
 
   <navMap>
 
-    <navPoint id="cover" playOrder="1">
+    <navPoint id="coverpage" playOrder="1">
       <navLabel><text>Cover</text></navLabel>
       <content src="cover.xhtml"/>
     </navPoint>
 
-    <navPoint id="page" playOrder="2">
+    <navPoint id="page2" playOrder="2">
       <navLabel><text>Page</text></navLabel>
       <content src="page2.xhtml"/>
     </navPoint>
 
-    <navPoint id="page" playOrder="3">
+    <navPoint id="page3" playOrder="3">
       <navLabel><text>Page</text></navLabel>
       <content src="page3.xhtml"/>
     </navPoint>
 
-    <navPoint id="page" playOrder="4">
+    <navPoint id="page4" playOrder="4">
       <navLabel><text>Page</text></navLabel>
       <content src="page4.xhtml"/>
     </navPoint>
 
-    <navPoint id="page" playOrder="5">
+    <navPoint id="page5" playOrder="5">
       <navLabel><text>Page</text></navLabel>
       <content src="page5.xhtml"/>
     </navPoint>
 
-    <navPoint id="page" playOrder="6">
+    <navPoint id="page6" playOrder="6">
       <navLabel><text>Page</text></navLabel>
       <content src="page6.xhtml"/>
     </navPoint>
 
-    <navPoint id="page" playOrder="7">
+    <navPoint id="page7" playOrder="7">
       <navLabel><text>Page</text></navLabel>
       <content src="page7.xhtml"/>
     </navPoint>
 
-    <navPoint id="page" playOrder="8">
+    <navPoint id="page8" playOrder="8">
       <navLabel><text>Page</text></navLabel>
       <content src="page8.xhtml"/>
     </navPoint>
 
-    <navPoint id="page" playOrder="9">
+    <navPoint id="page9" playOrder="9">
       <navLabel><text>Page</text></navLabel>
       <content src="page9.xhtml"/>
     </navPoint>
