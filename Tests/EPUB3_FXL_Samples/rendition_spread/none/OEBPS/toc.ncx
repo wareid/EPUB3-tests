@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+  <head>
+    <meta name="dtb:uid" content="0000000000000"/>
+    <meta name="dtb:depth" content="2"/>
+  </head>
+
+  <doctitle>
+    <text>EPUB Test Template</text>
+  </doctitle>
+
+  <navMap>
+
+    <navPoint id="cover" playOrder="1">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml"/>
+    </navPoint>
+
+    <navPoint id="page" playOrder="2">
+      <navLabel><text>Page</text></navLabel>
+      <content src="page2.xhtml"/>
+    </navPoint>
+
+    <navPoint id="page" playOrder="3">
+      <navLabel><text>Page</text></navLabel>
+      <content src="page3.xhtml"/>
+    </navPoint>
+
+    <navPoint id="page" playOrder="4">
+      <navLabel><text>Page</text></navLabel>
+      <content src="page4.xhtml"/>
+    </navPoint>
+
+    <navPoint id="page" playOrder="5">
+      <navLabel><text>Page</text></navLabel>
+      <content src="page5.xhtml"/>
+    </navPoint>
+
+    <navPoint id="page" playOrder="6">
+      <navLabel><text>Page</text></navLabel>
+      <content src="page6.xhtml"/>
+    </navPoint>
+
+    <navPoint id="page" playOrder="7">
+      <navLabel><text>Page</text></navLabel>
+      <content src="page7.xhtml"/>
+    </navPoint>
+
+    <navPoint id="page" playOrder="8">
+      <navLabel><text>Page</text></navLabel>
+      <content src="page8.xhtml"/>
+    </navPoint>
+
+    <navPoint id="page" playOrder="9">
+      <navLabel><text>Page</text></navLabel>
+      <content src="page9.xhtml"/>
+    </navPoint>
+
+  </navMap>
+</ncx>
