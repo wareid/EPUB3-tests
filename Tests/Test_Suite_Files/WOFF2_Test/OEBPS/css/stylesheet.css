@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Abhaya Libre;
+  src: url(abhaya-libre-v5-latin-regular.woff2) format(woff2);
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: Abhaya Libre, monospace;
+}
+
+p {
+  font-size: 1em;
+  margin: 0em;
+  font-family: Abhaya Libre, monospace;
+}
