@@ -1,0 +1,20 @@
+html {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Roboto-VF";
+  src: url("Roboto-VF.ttf") format("ttf");
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0em;
+  font-family: serif;
+}
+
+p {
+  font-size: 1em;
+  margin: 0em;
+  font-family: "Roboto-VF", monospace;
+}
