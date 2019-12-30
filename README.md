@@ -1,2 +1,4 @@
 # EPUB3-tests
-Some sample EPUBs for testing
+Sample EPUB files for testing.
+
+All files are EPUB3 unless named otherwise, and validated using EPUBCheck. 
