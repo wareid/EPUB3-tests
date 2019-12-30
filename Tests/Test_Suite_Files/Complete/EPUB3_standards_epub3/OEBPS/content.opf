@@ -14,7 +14,7 @@
     <item href="frontmatter.xhtml" id="frontmatter" media-type="application/xhtml+xml"/>
     <item href="bodymatter.xhtml" id="bodymatter" media-type="application/xhtml+xml"/>
     <item href="endmatter.xhtml" id="endmatter" media-type="application/xhtml+xml"/>
-    <item href="svg.xhtml" id="svg" properties="scripted" media-type="application/svg+xml"/>
+    <item href="svg.xhtml" id="svg" media-type="application/svg+xml"/>
     <item href="images/cover.jpg" properties="cover-image" id="cover" media-type="image/jpeg"/>
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     <item href="css/stylesheet.css" id="stylesheet" media-type="text/css"/>

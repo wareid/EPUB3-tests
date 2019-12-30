@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
 
   <head>
@@ -7,13 +6,13 @@
     <meta name="dtb:depth" content="2"/>
   </head>
 
-  <doctitle>
+  <docTitle>
     <text>EPUB Test Template</text>
-  </doctitle>
+  </docTitle>
 
   <navMap>
 
-    <navPoint id="cover" playOrder="1">
+    <navPoint id="coverpage" playOrder="1">
       <navLabel><text>Cover</text></navLabel>
       <content src="cover.xhtml"/>
     </navPoint>

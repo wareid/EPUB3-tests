@@ -27,7 +27,8 @@ div.testframe {
   padding: 10px;
 }
 
-@namespace epub 'http://www.idpf.org/2007/ops'
+@namespace epub 'http://www.idpf.org/2007/ops';
+
 section[epub|type~='titlepage'] {
   margin: 1em;
   border: 2px;

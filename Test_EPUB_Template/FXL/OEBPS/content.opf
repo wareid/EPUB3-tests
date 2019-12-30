@@ -1,59 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <package xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
   <metadata>
-    <dc:title>Manga Test 1 - Glo</dc:title>
+    <dc:title>FXL Template</dc:title>
     <dc:identifier id="bookid">0000000000000</dc:identifier>
     <dc:language>en</dc:language>
     <dc:creator>Wendy Reid</dc:creator>
     <meta property="dcterms:modified">2015-04-23T12:00:00Z</meta>
     <meta property="rendition:layout">pre-paginated</meta>
-    <meta property="rendtion:spread">landscape</meta>
   </metadata>
   <manifest>
-    <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+    <item href="cover.xhtml" id="coverpage" media-type="application/xhtml+xml"/>
     <item href="nav.xhtml" properties="nav" id="toc" media-type="application/xhtml+xml"/>
     <item href="images/cover.jpg" properties="cover-image" id="cover" media-type="image/jpeg"/>
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
-    <item href="stylesheet.css" id="stylesheet" media-type="text/css"/>
-    <item href="cover.xhtml" properties="cover-page" id="coverpage" media-type="image/jpeg"/>
-    <item href="page002.xhtml" id="page002" media-type="application/xhtml+xml"/>
-    <item href="page003.xhtml" id="page003" media-type="application/xhtml+xml"/>
-    <item href="page004.xhtml" id="page004" media-type="application/xhtml+xml"/>
-    <item href="page005.xhtml" id="page005" media-type="application/xhtml+xml"/>
-    <item href="page006.xhtml" id="page006" media-type="application/xhtml+xml"/>
-    <item href="page007.xhtml" id="page007" media-type="application/xhtml+xml"/>
-    <item href="page008.xhtml" id="page008" media-type="application/xhtml+xml"/>
-    <item href="page009.xhtml" id="page009" media-type="application/xhtml+xml"/>
-    <item href="page010.xhtml" id="page010" media-type="application/xhtml+xml"/>
-    <item href="page011.xhtml" id="page011" media-type="application/xhtml+xml"/>
-    <item href="page012.xhtml" id="page012" media-type="application/xhtml+xml"/>
-    <item href="page013.xhtml" id="page013" media-type="application/xhtml+xml"/>
-    <item href="page014.xhtml" id="page014" media-type="application/xhtml+xml"/>
-    <item href="page015.xhtml" id="page015" media-type="application/xhtml+xml"/>
-    <item href="page016.xhtml" id="page016" media-type="application/xhtml+xml"/>
-    <item href="page017.xhtml" id="page017" media-type="application/xhtml+xml"/>
-    <item href="page018.xhtml" id="page018" media-type="application/xhtml+xml"/>
-    <item href="page019.xhtml" id="page019" media-type="application/xhtml+xml"/>
-    <item href="page020.xhtml" id="page020" media-type="application/xhtml+xml"/>
-    <item href="img002.jpg" id="img002" media-type="image/jpeg"/>
-    <item href="img003.jpg" id="img003" media-type="image/jpeg"/>
-    <item href="img004.jpg" id="img004" media-type="image/jpeg"/>
-    <item href="img005.jpg" id="img005" media-type="image/jpeg"/>
-    <item href="img006.jpg" id="img006" media-type="image/jpeg"/>
-    <item href="img007.jpg" id="img007" media-type="image/jpeg"/>
-    <item href="img008.jpg" id="img008" media-type="image/jpeg"/>
-    <item href="img009.jpg" id="img009" media-type="image/jpeg"/>
-    <item href="img010.jpg" id="img010" media-type="image/jpeg"/>
-    <item href="img011.jpg" id="img011" media-type="image/jpeg"/>
-    <item href="img012.jpg" id="img012" media-type="image/jpeg"/>
-    <item href="img013.jpg" id="img013" media-type="image/jpeg"/>
-    <item href="img014.jpg" id="img014" media-type="image/jpeg"/>
-    <item href="img015.jpg" id="img015" media-type="image/jpeg"/>
-    <item href="img016.jpg" id="img016" media-type="image/jpeg"/>
-    <item href="img017.jpg" id="img017" media-type="image/jpeg"/>
-    <item href="img018.jpg" id="img018" media-type="image/jpeg"/>
-    <item href="img019.jpg" id="img019" media-type="image/jpeg"/>
-    <item href="img020.jpg" id="img020" media-type="image/jpeg"/>
+    <item href="css/stylesheet.css" id="stylesheet" media-type="text/css"/>
+    <item href="page2.xhtml" id="page002" media-type="application/xhtml+xml"/>
+    <item href="page3.xhtml" id="page003" media-type="application/xhtml+xml"/>
+    <item href="page4.xhtml" id="page004" media-type="application/xhtml+xml"/>
+    <item href="page5.xhtml" id="page005" media-type="application/xhtml+xml"/>
+    <item href="page6.xhtml" id="page006" media-type="application/xhtml+xml"/>
+    <item href="page7.xhtml" id="page007" media-type="application/xhtml+xml"/>
+    <item href="page8.xhtml" id="page008" media-type="application/xhtml+xml"/>
+    <item href="page9.xhtml" id="page009" media-type="application/xhtml+xml"/>
+    <item href="images/page2.jpeg" id="page2" media-type="image/jpeg"/>
+    <item href="images/page3.jpeg" id="page3" media-type="image/jpeg"/>
+    <item href="images/page4.jpeg" id="page4" media-type="image/jpeg"/>
+    <item href="images/page5.jpeg" id="page5" media-type="image/jpeg"/>
+    <item href="images/page6.jpeg" id="page6" media-type="image/jpeg"/>
+    <item href="images/page7.jpeg" id="page7" media-type="image/jpeg"/>
+    <item href="images/page8.jpeg" id="page8" media-type="image/jpeg"/>
+    <item href="images/page9.jpeg" id="page9" media-type="image/jpeg"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="coverpage"/>
@@ -65,16 +41,5 @@
     <itemref idref="page007"/>
     <itemref idref="page008"/>
     <itemref idref="page009"/>
-    <itemref idref="page010"/>
-    <itemref idref="page011"/>
-    <itemref idref="page012"/>
-    <itemref idref="page013"/>
-    <itemref idref="page014"/>
-    <itemref idref="page015"/>
-    <itemref idref="page016"/>
-    <itemref idref="page017"/>
-    <itemref idref="page018"/>
-    <itemref idref="page019"/>
-    <itemref idref="page020"/>
   </spine>
 </package>

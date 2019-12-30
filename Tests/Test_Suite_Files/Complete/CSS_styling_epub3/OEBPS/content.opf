@@ -48,7 +48,7 @@
     <item href="css/images/cover.jpg" properties="cover-image" id="cover" media-type="image/jpeg"/>
     <item href="css/tinyarrow.png" id="tiny_arrow" media-type="image/png"/>
     <item href="css/images/background_img.jpg" id="background_img" media-type="image/jpeg"/>
-    <item href="css/smile-obfuscated.png" id="smile-obfuscated.png" media-type="image/png"/>
+    <item href="css/smile-obfuscated.png" id="smile-obfuscated" media-type="image/png"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover_page"/>
